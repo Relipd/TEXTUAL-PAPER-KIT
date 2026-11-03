@@ -1,0 +1,36 @@
+# Copy this file to config.toml and edit as needed.
+# Relative paths are resolved against the repository root.
+
+[paths]
+# Root for all downloaded/generated data. Keep it outside the repo if large.
+data_dir = "data"
+
+# Where annual-report PDFs are stored: {mda_dir}/{year}/{year}-{code}-{name}.pdf
+mda_dir = "data/MDA"
+
+# Optional: 2015-2020 "公司业务概要" PDFs (biz pipeline)
+biz_dir = "data/MDA_BIZ"
+
+# SQLite database created by the section pipeline
+db_path = "data/mda_sections.sqlite"
+
+# Target list. Required columns: Stkcd, ShortName, Accper
+# (Accper must contain YYYY/12/31 or YYYY-12-31 rows.)
+targets_csv = "data/targets.csv"
+
+# CSV / Stata exports
+export_dir = "data/exports"
+
+[network]
+# Global request rate for the CNINFO announcement API
+rps = 8.0
+# Per-download-process rate for PDF downloads
+dl_rps = 2.0
+# Set to true if requests must use HTTP(S)_PROXY from the environment.
+trust_env = false
+# Optional UA override
+# user_agent = "Mozilla/5.0 ..."
+
+[extract]
+# Reserved for stricter boundary checks in older pipelines
+strict_boundary = false

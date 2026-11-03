@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "annual-report-mda-kit"
+version = "0.1.0"
+description = "Reusable toolkit for downloading, extracting, cleaning and storing Chinese A-share annual-report MD&A text."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "MDA Kit contributors" }]
+keywords = ["annual report", "MD&A", "Chinese", "NLP", "corpus", "CNINFO"]
+dependencies = [
+    "pymupdf>=1.24",
+    "requests>=2.31",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+mda-kit = "mda_kit.__main__:main"
+
+[tool.setuptools]
+packages = ["mda_kit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
