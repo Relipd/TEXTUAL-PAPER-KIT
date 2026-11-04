@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audit-kit"
+version = "0.1.0"
+description = "Crawl and structure A-share auditor engagement announcements (CNINFO) into a SQLite corpus with person-level time nodes."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "audit_engagement_kit contributors" }]
+keywords = ["auditing", "cninfo", "annual-report", "text-extraction", "corpus", "pymupdf"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "pymupdf>=1.23",
+    "openpyxl>=3.1",
+    "requests>=2.28",
+]
+
+[project.optional-dependencies]
+ocr = ["ocrmypdf>=15"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+audit-kit = "audit_kit.cli:main"
+
+[tool.setuptools]
+packages = ["audit_kit", "audit_kit.repairs"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,33 @@
+# 本地数据与产物（均不入库）
+/FIN_Audit.csv
+/data/
+/output/
+/ocr/
+*.db
+*.sqlite3
+*.jsonl
+*.xlsx
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this toolkit or the derived corpus in your research, please cite it as below."
+title: "audit_engagement_kit"
+abstract: >-
+  A Python toolkit and reproducible corpus for collecting A-share auditor
+  engagement announcements from CNINFO (2020-2026), reconstructing the PDF
+  layout of the "project information" section, and extracting engagement
+  partners, signing certified public accountants, quality control reviewers,
+  and four career time nodes, yielding a SQLite dataset with FTS5 full-text
+  search and Excel exports.
+authors:
+  - name: "audit_engagement_kit contributors"
+type: software
+version: "0.1.0"
+date-released: "2026-11-04"
+license: MIT
+keywords:
+  - auditing
+  - auditor engagement
+  - A-share market
+  - CNINFO
+  - annual report
+  - PDF layout extraction
+  - corpus
+  - Python

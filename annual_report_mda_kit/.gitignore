@@ -1,0 +1,28 @@
+# Data and generated artifacts
+data/*
+!data/.gitkeep
+*.sqlite
+*.sqlite3
+*.db
+*.pdf
+*.dta
+*.xlsx
+*.log
+_ocr/
+_backup_fix/
+_neeq_cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration (never commit credentials/proxy settings)
+config.toml
+.env
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,85 @@
+{
+  "_comment": "黄金结果：由基线版本（baseline, v0.1.0）抽取引擎生成，用于回归测试。字段含义见 docs/data-model.md。",
+  "sample": {
+    "file": "pdf/601398_ah.PDF",
+    "code": "601398",
+    "name": "工商银行",
+    "disc_year": 2024,
+    "title": "中国工商银行股份有限公司关于聘任会计师事务所的公告",
+    "date": "2024-08-07",
+    "url": "",
+    "pages": 5
+  },
+  "extract": {
+    "roles": {
+      "项目合伙人": [],
+      "签字注册会计师": [
+        "严盛炜",
+        "师宇轩",
+        "张明益"
+      ],
+      "质量控制复核人": [
+        "孙玫"
+      ]
+    },
+    "src": "rawtext",
+    "note": "",
+    "persons": [
+      {
+        "role": "签字注册会计师",
+        "name": "严盛炜",
+        "times": {
+          "become_cpa": "2000",
+          "start_listed": "1997",
+          "start_firm": "1997",
+          "start_company": "2024"
+        },
+        "years": [],
+        "source": "text+ctx"
+      },
+      {
+        "role": "签字注册会计师",
+        "name": "师宇轩",
+        "times": {
+          "become_cpa": "2007",
+          "start_listed": "2004",
+          "start_firm": "2006",
+          "start_company": "2024"
+        },
+        "years": [],
+        "source": "text+ctx"
+      },
+      {
+        "role": "签字注册会计师",
+        "name": "张明益",
+        "times": {
+          "become_cpa": "2005",
+          "start_listed": "1994",
+          "start_firm": "1991",
+          "start_company": "2024"
+        },
+        "years": [],
+        "source": "text+ctx"
+      },
+      {
+        "role": "质量控制复核人",
+        "name": "孙玫",
+        "times": {
+          "become_cpa": "2001",
+          "start_listed": "1998",
+          "start_firm": "2007",
+          "start_company": "2024"
+        },
+        "years": [],
+        "source": "text+ctx"
+      }
+    ]
+  },
+  "meta": {
+    "audit_year": "2024",
+    "firm_notice": "安永华明会计师事务所（特殊普通合伙）",
+    "prev_firm": "德勤华永会计师事务所（特殊普通合伙）",
+    "tenure": "3",
+    "fee": "5983.39万元"
+  }
+}

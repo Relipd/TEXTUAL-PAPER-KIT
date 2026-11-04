@@ -1,0 +1,7 @@
+# 默认按文本处理并统一换行；二进制文件不做转换
+* text=auto eol=lf
+*.pdf binary
+*.PDF binary
+*.xlsx binary
+*.db binary
+*.png binary

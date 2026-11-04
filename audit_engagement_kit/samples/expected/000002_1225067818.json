@@ -1,0 +1,73 @@
+{
+  "_comment": "黄金结果：由基线版本（baseline, v0.1.0）抽取引擎生成，用于回归测试。字段含义见 docs/data-model.md。",
+  "sample": {
+    "file": "pdf/000002_1225067818.PDF",
+    "code": "000002",
+    "name": "万科A",
+    "disc_year": 2026,
+    "title": "关于拟续聘2026年度会计师事务所的公告",
+    "date": "2026-04-01",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-04-01/1225067818.PDF",
+    "pages": 4
+  },
+  "extract": {
+    "roles": {
+      "项目合伙人": [
+        "杨誉民"
+      ],
+      "签字注册会计师": [
+        "许湘照"
+      ],
+      "质量控制复核人": [
+        "黄天义"
+      ]
+    },
+    "src": "prose",
+    "note": "",
+    "persons": [
+      {
+        "role": "项目合伙人",
+        "name": "杨誉民",
+        "times": {
+          "become_cpa": "2007",
+          "start_listed": "2004",
+          "start_firm": "",
+          "start_company": ""
+        },
+        "years": [],
+        "source": "prose+ctx"
+      },
+      {
+        "role": "签字注册会计师",
+        "name": "许湘照",
+        "times": {
+          "become_cpa": "2010",
+          "start_listed": "2003",
+          "start_firm": "",
+          "start_company": ""
+        },
+        "years": [],
+        "source": "prose+ctx"
+      },
+      {
+        "role": "质量控制复核人",
+        "name": "黄天义",
+        "times": {
+          "become_cpa": "1998",
+          "start_listed": "2002",
+          "start_firm": "",
+          "start_company": ""
+        },
+        "years": [],
+        "source": "prose+ctx"
+      }
+    ]
+  },
+  "meta": {
+    "audit_year": "2026",
+    "firm_notice": "德勤华永会计师事务所(特殊普通合伙)",
+    "prev_firm": "",
+    "tenure": "",
+    "fee": "1388万元"
+  }
+}

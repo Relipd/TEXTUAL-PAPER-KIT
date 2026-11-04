@@ -1,28 +1,32 @@
-# Data and generated artifacts
-data/*
-!data/.gitkeep
-*.sqlite
-*.sqlite3
-*.db
-*.pdf
-*.dta
-*.xlsx
-*.log
-_ocr/
-_backup_fix/
-_neeq_cache/
+# ---------- Python ----------
 __pycache__/
 *.py[cod]
-.pytest_cache/
-
-# Local configuration (never commit credentials/proxy settings)
-config.toml
-.env
+*.egg-info/
+.eggs/
+build/
+dist/
 .venv/
 venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# OS / editor
+# ---------- 本地数据与产物（各 kit 内另有 .gitignore，这里兜底） ----------
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+*.dta
+*.log
+.env
+
+# ---------- OS / 编辑器 ----------
 .DS_Store
 Thumbs.db
+desktop.ini
 .idea/
 .vscode/
+*.swp

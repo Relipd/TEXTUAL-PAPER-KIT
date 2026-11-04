@@ -1,0 +1,32 @@
+[
+  {
+    "file": "pdf/000002_1225067818.PDF",
+    "code": "000002",
+    "name": "万科A",
+    "disc_year": 2026,
+    "title": "关于拟续聘2026年度会计师事务所的公告",
+    "date": "2026-04-01",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-04-01/1225067818.PDF",
+    "pages": 4
+  },
+  {
+    "file": "pdf/600519_1219506502.PDF",
+    "code": "600519",
+    "name": "贵州茅台",
+    "disc_year": 2024,
+    "title": "贵州茅台关于变更会计师事务所的公告",
+    "date": "2024-04-03",
+    "url": "http://static.cninfo.com.cn/finalpage/2024-04-03/1219506502.PDF",
+    "pages": 6
+  },
+  {
+    "file": "pdf/601398_ah.PDF",
+    "code": "601398",
+    "name": "工商银行",
+    "disc_year": 2024,
+    "title": "中国工商银行股份有限公司关于聘任会计师事务所的公告",
+    "date": "2024-08-07",
+    "url": "",
+    "pages": 5
+  }
+]

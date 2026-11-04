@@ -1,0 +1,2 @@
+# 可选依赖：仅「扫描件 OCR 补救」功能需要（见 docs/limitations.md）
+ocrmypdf>=15

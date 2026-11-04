@@ -1,0 +1,106 @@
+{
+  "_comment": "黄金结果：由基线版本（baseline, v0.1.0）抽取引擎生成，用于回归测试。字段含义见 docs/data-model.md。",
+  "sample": {
+    "file": "pdf/600519_1219506502.PDF",
+    "code": "600519",
+    "name": "贵州茅台",
+    "disc_year": 2024,
+    "title": "贵州茅台关于变更会计师事务所的公告",
+    "date": "2024-04-03",
+    "url": "http://static.cninfo.com.cn/finalpage/2024-04-03/1219506502.PDF",
+    "pages": 6
+  },
+  "extract": {
+    "roles": {
+      "项目合伙人": [
+        "李青龙"
+      ],
+      "签字注册会计师": [
+        "梁正勇",
+        "曾志"
+      ],
+      "质量控制复核人": [
+        "陈焱鑫"
+      ]
+    },
+    "src": "layout",
+    "note": "",
+    "persons": [
+      {
+        "role": "项目合伙人",
+        "name": "李青龙",
+        "times": {
+          "become_cpa": "1998",
+          "start_listed": "1998",
+          "start_firm": "1998",
+          "start_company": "2024"
+        },
+        "years": [
+          "2002",
+          "1998",
+          "1998",
+          "2024"
+        ],
+        "source": "table"
+      },
+      {
+        "role": "签字注册会计师",
+        "name": "梁正勇",
+        "times": {
+          "become_cpa": "2002",
+          "start_listed": "2002",
+          "start_firm": "2002",
+          "start_company": "2024"
+        },
+        "years": [
+          "2000",
+          "2002",
+          "2002",
+          "2024"
+        ],
+        "source": "table"
+      },
+      {
+        "role": "签字注册会计师",
+        "name": "曾志",
+        "times": {
+          "become_cpa": "2007",
+          "start_listed": "2007",
+          "start_firm": "2007",
+          "start_company": "2024"
+        },
+        "years": [
+          "2009",
+          "2007",
+          "2007",
+          "2024"
+        ],
+        "source": "table"
+      },
+      {
+        "role": "质量控制复核人",
+        "name": "陈焱鑫",
+        "times": {
+          "become_cpa": "2004",
+          "start_listed": "2004",
+          "start_firm": "2004",
+          "start_company": "2024"
+        },
+        "years": [
+          "2006",
+          "2004",
+          "2004",
+          "2024"
+        ],
+        "source": "table"
+      }
+    ]
+  },
+  "meta": {
+    "audit_year": "2024",
+    "firm_notice": "天职国际会计师事务所（特殊普通合伙）",
+    "prev_firm": "天职国际会计师事务所（特殊普通合伙）",
+    "tenure": "6",
+    "fee": "41万元"
+  }
+}
